@@ -2,9 +2,9 @@
 The Transaction service API allows users to manage accounts and transactions.It provides endpoints for creating accounts, retrieving account details, and recording transactions such as purchases, withdrawals, and credit vouchers.
 
 # Features
-Create Account: Allows creating a new account with a unique document number.
-Retrieve Account Information: Allows fetching account details using the account ID.
-Create Transaction: Allows recording a transaction associated with an account.
+- Create Account: Allows creating a new account with a unique document number.
+- Retrieve Account Information: Allows fetching account details using the account ID.
+- Create Transaction: Allows recording a transaction associated with an account.
 
 # Technologies Used
 - Java 17
@@ -39,10 +39,10 @@ Create Transaction: Allows recording a transaction associated with an account.
 [Swagger Doc](http://localhost:8080/swagger-ui/index.html)
 
 
-### Running the Application with Docker
+## Running the Application with Docker
 
-- Build the Docker image : ```docker build -t transaction:latest .```
-- Run the docker container : ```docker run -p 8080:8080 transaction:latest```
+- Build the Docker image : ```docker build -t transaction-service:latest .```
+- Run the docker container : ```docker run -p 8080:8080 transaction-service:latest```
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
